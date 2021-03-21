@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="CREATED BY"
+        android:textColor="#070707"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="0dp"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/bar1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="12dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="NAMA"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="10dp"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="NAMA"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Sinzie Winata"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="NIM"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="00000031729"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="KELAS"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="IF633 - DL"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/judulTolong"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="REFERENCE"
+        android:textColor="#000000"
+        android:textSize="31sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="YOUTUBE"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="PROGRAMMITY"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/link1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="https://www.youtube.com/watch?v=IauxP5xgu_s&amp;t=6s"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+</LinearLayout>
