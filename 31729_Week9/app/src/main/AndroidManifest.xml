@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.31729_Week9">
+        <activity android:name=".MahasiswaViewModel"></activity>
+        <activity android:name=".MahasiswaRoomDatabase" />
+        <activity android:name=".MahasiswaRepository" />
+        <activity android:name=".MahasiswaListAdapter" />
+        <activity android:name=".Mahasiswa" />
+        <activity android:name=".DetilActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
