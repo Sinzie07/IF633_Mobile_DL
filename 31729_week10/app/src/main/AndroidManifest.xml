@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.31729_week10">
-        <activity android:name=".SimpleIntentService"></activity>
+        <activity
+            android:name=".fab"
+            android:label="@string/title_activity_fab"
+            android:theme="@style/Theme.31729_week10.NoActionBar"></activity>
+        <activity android:name=".SimpleIntentService" />
         <activity android:name=".CustomServiceTask" />
         <activity android:name=".CustomService" />
         <activity android:name=".CustomBoundService" />
